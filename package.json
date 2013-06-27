@@ -1,0 +1,22 @@
+{
+  "name": "testing-the-dom",
+  "version": "0.0.0",
+  "description": "Testing the dom with JSDOM + Mocha + Travis CI ======",
+  "main": "clicker.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "jsdom": "~0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "~1.11.0"
+  },
+  "repository": "",
+  "author": "Sam Saccone",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
