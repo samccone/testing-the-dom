@@ -1,5 +1,5 @@
 Testing the dom with JSDOM + Mocha + Travis CI
-======
+---------
 
 
 [![Build Status](https://travis-ci.org/samccone/testing-the-dom.png?branch=master)](https://travis-ci.org/samccone/testing-the-dom)
