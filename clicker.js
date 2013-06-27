@@ -15,10 +15,10 @@
       this.elm.textContent = "hi"
     }
 
-    return this;
+    return this; //make sure to return this to allow chaining
   }
 
-  // this is exposing our class to either node or js
+  // this is exposing our class to either nodejs env or normal dom interface
   if (typeof module != "undefined") {
     module.exports = Clicker;
   } else {

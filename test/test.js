@@ -1,11 +1,14 @@
 var assert  = require('assert');
 var jsdom   = require('jsdom');
+
 var Clicker = require('../clicker');
 
+// clear the DOM between each test
 beforeEach(function(complete) {
   jsdom.env(
     '<html><body></body></html>',
     function(errors, window) {
+      // expose the document to the global scope
       global.document = window.document;
       complete();
     }
